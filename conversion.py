@@ -1,4 +1,11 @@
 def celsius_to_fahrenheit(celsius):
+    """Convert Celsius to Fahrenheit and return the value.
+
+    Keyword arguments:
+    celsius -- temperature in Celsius
+
+    Return: temperature in Fahrenheit
+    """
     return celsius/5*9.0 + 32.0
 
 def celsius_to_kelvin(celsius):
