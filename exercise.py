@@ -29,3 +29,8 @@ def _check_valid_temperature(temperature, unit):
     if unit == "K" and temperature < 0:
         return False
     return True
+
+if __name__ == "__main__":
+    print (convert_temperature(0, "K"))
+    print (convert_temperature(0, "C"))
+    print (convert_temperature(0, "F"))
